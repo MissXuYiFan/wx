@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/path/path",
+    "pages/index/index",
+    
+    "pages/show/show",
+    "pages/list/list",
+    
+    "pages/awm/awm"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ColorUI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/path/path",
+      "text": "首页",
+      "iconPath": "images/tabbar/basics.png",
+      "selectedIconPath": "images/tabbar/basics_cur.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "images/tabbar/about.png",
+      "selectedIconPath": "images/tabbar/about_cur.png"
+    }
+    ]
+  },
+  "permission":{
+    "scope.userLocation":{
+      "desc":"请点击确定"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
