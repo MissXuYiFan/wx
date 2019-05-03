@@ -1,0 +1,15 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">我的关注</view>
+</cu-custom>
+
+
+
+<view wx:if="{{10001}}">
+  未关注   其他作者
+</view>
+
+
+<view wx:else>
+    已关注的作者
+</view>

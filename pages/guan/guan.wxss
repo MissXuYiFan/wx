@@ -1,0 +1,29 @@
+/* pages/guan/guan.wxss */
+.xyf-zz image{
+  width: 104rpx;
+  height: 104rpx;
+}
+.xyf-zz{
+  position: relative;
+  background: #e5e5e5;
+  height: 120rpx;
+  border: 1px solid #e5e5e5
+}
+.xyf-zz text{
+  font-size: 36rpx;
+  color: #101010;
+  position: absolute;
+  left:476rpx;
+  line-height: 120rpx
+}
+.xyf-zz image{
+  position: absolute;
+  top: 8rpx;
+  left: 40rpx
+}
+.xyf-bootm{
+  margin-top: 30rpx
+}
+.xyf-img{
+  padding-left: 167rpx
+}

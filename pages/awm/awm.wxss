@@ -1,0 +1,80 @@
+/* pages/awm/awm.wxss */
+.cu-custom{
+  height: 100rpx
+}
+
+.wx{
+  width: 100%;
+  height: 34rpx;
+  background: #e5e5e5
+}
+.quan{
+  background: #fff
+}
+.woqu{
+  border-bottom: solid 2px red;
+  width: 100rpx;
+}
+.title{
+ font-size:30rpx;
+font-weight:900;
+color:var(--black);
+line-height:100rpx;
+padding:0 30rpx;
+}
+.text-cut{
+  text-overflow:ellipsis;
+white-space:nowrap;
+overflow:hidden;
+}
+page{
+  background: #fff
+}
+.woquni{
+  font-size: 52rpx;
+  padding: 15rpx;
+  padding-left: 65rpx
+}
+.cu-avatar{
+  margin-left: 68rpx
+}
+.wl{
+  margin-left: 18rpx
+}
+.w2{
+  margin-left: 135rpx
+}
+.img3{
+  width: 586rpx;
+  height: 386rpx;
+  margin-top: 46rpx;
+  margin-left: 74rpx
+}
+.img3 image{
+  width: 100%;
+  height: 100%
+}
+.clol{
+  height: 80rpx;
+  width: 240rpx;
+  border-radius:15rpx;
+  background: #FF9800;
+ 
+}
+.kkk{
+  width: 650rpx;
+  height: auto;
+  margin-left: 54rpx;
+}
+.mk{
+  width: 72rpx;
+  height: 80rpx;
+  border-radius:25rpx;
+  position: fixed;
+  top: 631rpx;
+  right: 0
+}
+.mk image{
+  width: 100%;
+  height: 100%
+}

@@ -1,0 +1,25 @@
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="content">首页</view>
+</cu-custom>
+
+
+
+
+
+
+<view bindtap='okda' wx:for="{{list}}" wx:key="list" data-id='{{item.id}}'>
+  <view class='cu-card article no-card' >
+  <view class='title'>
+    <view class='text-cut'>{{item.title}}</view>
+  </view>
+  <view class='content'>
+    <image src="{{item.cover}}"></image>
+  </view>
+</view>
+</view>
+
+<image src='../../images/v2q.jpg' class='mk' bindtap='xiao'></image>
+
+
+  <button class="cu-btn block bg-blue margin-tb-sm " bindtap='ak'>
+    <text class=""></text> 加载</button>

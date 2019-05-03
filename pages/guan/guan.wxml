@@ -1,0 +1,20 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">我的收藏</view>
+</cu-custom>
+
+<!--pages/guan/guan.wxml-->
+<view wx:if="{{404}}" class='grid col-1 margin-bottom text-center'>
+  <view class='bg-cyan padding'>你还未收藏文章</view>
+  <image src='../../images/bjm.jpg' class='xyf-img'></image>
+</view>
+
+
+<view wx:else>
+  <view class='nida xyf-bootm' wx:for="{{item}}" wx:key="item">
+  <view class='xyf-zz'>
+    <image src='{{item.img}}'></image>
+    <text>作者：{{item.zuo}}</text>
+  </view>
+</view>
+</view>

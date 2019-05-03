@@ -1,0 +1,39 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<cu-custom bgImage="https://image.weilanwl.com/color2.0/plugin/sylb2244.jpg" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">文章中心</view>
+</cu-custom>
+
+<view class='woquni'>
+{{list.title}}
+</view>
+<view class="cu-avatar round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+<text class='wl'>KiKa</text>
+
+<text class="w2" bindtap='guan' data-id='{{list.id}}' data-flag='{{list.flag}}'>关注</text>
+<text class="w2" bindtap='show' data-id='{{list.id}}'>收藏</text>
+
+
+<!-- <view class='img3'>
+  <image src="{{list.cover}}"></image>
+</view> -->
+
+
+
+
+<view class='kkk'>
+<view class="wxParse">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+</view>
+</view>
+
+
+
+<view class='mk' bindtap="xiao">
+<image src='../../images/v2q.jpg'></image>
+</view>
+
+
+<view class=''>
+<button class='cu-btn clol bg-green'>立即购买</button>
+</view>

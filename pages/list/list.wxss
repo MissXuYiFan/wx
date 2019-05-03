@@ -1,0 +1,22 @@
+page{
+  padding-bottom: 100rpx;
+}
+.cu-btn{
+  height: 58rpx;
+  background: #fff
+}
+.cu-btn:not([class*="bg-"]){
+  background-color: #fff
+}
+.eksio{
+  height: 320rpx;
+  width: 100%;
+  background: #e5e5e5;
+  position: fixed;
+  bottom: 0
+}
+.cu-bar.foot{
+  position: fixed;
+  bottom: 320rpx
+  ;
+}

@@ -1,0 +1,36 @@
+.cu-avatar{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 52rpx;
+  margin-left: 64rpx
+}
+.wo{
+  margin-left: 50rpx
+}
+.ao{
+  background: #e5e5e5;
+  height: 2rpx;
+  width: 130rpx;
+  margin-top: 46rpx;
+  margin-left: 64rpx
+}
+page{
+  background: #fff
+}
+.text-content{
+  font-size:28rpx;
+color:#888;
+height:168rpx;
+overflow:hidden;
+width: 610rpx;
+margin-left: 64rpx;
+margin-top: 56rpx
+}
+.round{
+  width: 504rpx;
+  margin-top: 40rpx;
+  margin-left: 130rpx
+}
+.radius{
+  border-radius: 20rpx
+}

@@ -1,0 +1,51 @@
+
+<view class='cu-custom'>
+  <view class="cu-bar fixed bg-shadeTop" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
+    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
+
+    </navigator>
+    <view class='content' style='top:{{StatusBar}}px;'>个人中心</view>
+  </view>
+</view>
+
+<swiper class="screen-swiper ">
+  <swiper-item>
+    <image src="https://image.weilanwl.com/img/4x3-1.jpg" mode='aspectFill'></image>
+  </swiper-item>
+</swiper>
+
+<view class="cu-avatar radius " style="background-image:url({{userInfo.avatarUrl}});"></view>
+
+<text class='wo'>{{userInfo.nickName}}</text>
+<view class='ao'></view>
+
+
+<view class='text-content'>
+ 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！ 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！
+</view>
+
+
+
+<button class='cu-btn round bg-olive button-hover' bindtap='xyfzuoze'>关注的作者</button>
+
+<button class='cu-btn round bg-olive button-hover' bindtap='guan'>收藏的文章</button>
+
+
+
+
+
+
+
+<!--index.wxml-->
+<view class="container" >
+  <view class="userinfo" >
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="" mode="cover"></image>
+      <text class="userinfo-nickname"></text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
